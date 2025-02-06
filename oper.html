@@ -4,24 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello</title>
-    <style>
-        body{
-            color:rgb(49, 49, 49)
-        }
-        body{
-            background-image: url(1980x1080.gif);
-            background-size: 100%;
-        }
-        .logo{
-            width: 200px;;
-        }
-        .header{
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            font-size: 70px;
-            color: black;
-            text-shadow: 5px 10px 15px rgb(0, 0, 0)
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1 class="header">Операционные системы</h1>
@@ -32,10 +15,17 @@
         Приложения и сервисы (например, текстовые редакторы, таблицы,
         интернет-браузеры, базы данных) просто не запустятся, если на компьютере не будет ОС.
     </p>
-    <h2>Microsoft - Windows</h2> <img class="logo" src="channels4_profile.jpg">
-    <h2>Google - Android</h2> <img class="logo" src="unnamed.gif">
-    <h2>Apple - IOS</h2> <img class="logo" src="ios-1721717446446-2x.jpg">
-    <h2>Linux</h2> <img class="logo" src="f0444421e294b9c85f50c2164f2bd27f.jpg">
-    <h2>Huawei - HarmonyOS</h2> <img class="logo" src="hm-os-harmonyos-huawei-logo-1.jpg">
+    <div class="desk_os"> 
+        <h2>Десктопные ОС</h2>
+        <p>Microsoft - Windows</p> <img class="logo" src="channels4_profile.jpg">
+        <p>Наиболее распространенная ОС</p>
+        <p>Linux</p> <img class="logo" src="f0444421e294b9c85f50c2164f2bd27f.jpg">
+    </div>
+    <div class="mob_os">
+        <h2>Мобильные ОС</h2>
+        <p>Google - Android</p> <img class="logo" src="unnamed.gif">
+        <p>Apple - IOS</p> <img class="logo" src="ios-1721717446446-2x.jpg">
+        <p>Huawei - HarmonyOS</p> <img class="logo" src="hm-os-harmonyos-huawei-logo-1.jpg">
+    </div>
 </body>
 </html>

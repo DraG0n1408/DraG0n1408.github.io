@@ -1,0 +1,32 @@
+.logo
+body{
+    color:rgb(49, 49, 49)
+}
+body{
+    background-image: url(1980x1080.gif);
+    background-size: 100%;
+}
+.logo{
+    width: 200px;;
+}
+.header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    color: black;
+    text-shadow: 5px 10px 15px rgb(0, 0, 0)
+}
+.logo:hover{
+    width: 270px;
+}
+.desk_os{
+    border: 2px solid rgb(80, 80, 80);
+    border-radius: 40px;
+    background-color: rgb(226, 226, 226);
+    width: 50%;
+}
+.mob_os{
+    border: 2px solid rgb(80, 80, 80);
+    border-radius: 40px;
+    background-color: rgb(226, 226, 226);
+    width: 50%;
+}
