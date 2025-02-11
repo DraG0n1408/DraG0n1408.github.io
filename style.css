@@ -3,7 +3,7 @@ body{
     color:rgb(49, 49, 49)
 }
 body{
-    background-image: url(1980x1080.gif);
+    background-image: url(1638157413-1001.jpg);
     background-size: 100%;
 }
 .logo{
@@ -19,14 +19,23 @@ body{
     width: 270px;
 }
 .desk_os{
-    border: 2px solid rgb(80, 80, 80);
-    border-radius: 40px;
-    background-color: rgb(226, 226, 226);
+    border-radius: 10px;
+    background-image: linear-gradient(#72A0C1,#318CE7);
     width: 50%;
 }
 .mob_os{
-    border: 2px solid rgb(80, 80, 80);
-    border-radius: 40px;
-    background-color: rgb(226, 226, 226);
+    border-radius: 10px;
+    background-image: linear-gradient(#72A0C1,#318CE7);
     width: 50%;
+}
+.general{
+    width: 50%;
+    border-radius: 10px;
+    background-image: linear-gradient(#72A0C1,#318CE7);
+}
+.btn_os{
+    width: 100px;
+    background-color: #318CE7;
+    text-decoration: none;
+    border-radius: 5px;
 }
