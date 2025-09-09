@@ -1,0 +1,49 @@
+.head {
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(55, 184, 184);
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+body{
+    background-color: rgb(207, 229, 248);
+}
+.secondtext{
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(55, 184, 184);
+    letter-spacing: 4px;
+    font-size: x-large;
+    border-radius: 5px;
+}
+.container{
+    padding-left: 350px;
+    padding-right: 350px;
+}
+.description1{
+    text-align: justify;
+    color: rgb(26, 39, 39);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0,5px;
+    line-height: 30px;
+}
+.container1{
+    padding-left: 5px;
+    padding-right: 800px;
+    padding-bottom: 30px;
+    font-size: larger;
+}
+.description2{
+    text-align: justify;
+    color: rgb(26, 39, 39);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0,5px;
+    line-height: 30px;
+}
+.container2{
+    padding-left: 5px;
+    padding-right: 800px;
+    font-size: larger;
+}
