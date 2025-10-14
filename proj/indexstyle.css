@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 2px;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(157, 157, 157);
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    height: 5vh;
+    justify-content: space-between;
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    width: 40vw;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.searchlogo{
+    width: 36px;
+    height: 100%;
+    border: 3px solid;
+    border-radius: 50%; 
+    position: absolute;
+    left: 0;
+}
+
+.inputsearch{
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    border: 3px solid;
+    right: 0;
+    border-radius: 5px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    gap: 15px;
+    border-radius: 5px;
+}
+
+.menublocks{
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+    height: 100%;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.menublocks > div{
+    width: 33%;
+    height: 100%;
+    border: 3px solid;
+    border-radius: 5px;
+}
+
+.menucircles{
+    display: flex;
+    flex-direction: row;
+    width: 240px;
+    height: 100%;
+    justify-content: space-around;
+    gap: 7%;
+}
+
+.menucircles > div{
+    width: 20%;
+    height: 100%;
+    border: 3px solid;
+    border-radius: 50%;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 100%;
+    padding: 5px;
+}
+
+.leftstart{
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+}
+
+.leftstart1{
+    width: 10%;
+    border-radius: 50%;
+    border: 3px solid;
+    border-radius: 5px;
+}
+
+.leftstart2{
+    width: 90%;
+    border: 3px solid;
+    border-radius: 5px;
+}
+
+.left > div{
+    width: 100%;
+}
+
+.lefttop > div{
+    height: 15%;
+    border: 3px solid;
+    border-radius: 5px;
+}
+
+.leftbottom > div{
+    height: 15%;
+    border: 3px solid;
+    border-radius: 5px;
+}
+
+.lefttop, .leftbottom{
+    height: 25vh;
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.leftcentral{
+    height: 5%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 3px solid;
+    border-radius: 5px;
+}
+.midup{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 25%;
+    padding: 15px;
+    border: 3px solid;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.mid{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50vw;
+    padding: 5px;
+    gap: 10px;
+}
+
+.createpost{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.stories{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.midupcenter{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80px;
+    border: 3px solid;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+
+.midupdown{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 45px;
+    gap: 5px;
+}
+.midup1{
+    height: 100%;
+    border: 3px solid;
+    border-radius: 5px;
+    width: 25%;
+}
+.midup2{
+    height: 100%;
+    border: 3px solid;
+    border-radius: 5px;
+    width: 25%;
+}
+.midup3{
+    height: 100%;
+    border: 3px solid;
+    border-radius: 5px;
+    width: 25%;
+}
+.midup4{
+    height: 100%;
+    border: 3px solid;
+    border-radius: 5px;
+    width: 12.1%;
+}
+
+.body2{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(216, 216, 216);
+}
+
+.midcenter{
+    display: flex;
+    flex-direction: column;
+    height: 35%;
+    width: 100%;
+    border: 3px solid;
+    border-radius: 10px;
+    gap: 10px;
+    padding: 15px;
+}
+.midcenterdown{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+}
+.midcenterdown > div{
+    height: 100%;
+    width: 25%;
+    border: 3px solid;
+    border-radius: 5px;
+}
+
+.midbottom{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 40%;
+    border: 3px solid;
+    border-radius: 10px;
+    padding: 15px;
+    gap: 5%;
+}
+.midbottomup{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    gap: 66%;
+}
+.midbottomcenter1{
+    width: 100%;
+    height: 15%;
+    border: 3px solid;
+    border-radius: 5px;
+}
+.midbottomcenter2{
+    width: 100%;
+    height: 20%;
+    border: 3px solid;
+    border-radius: 5px;
+}
+.midbottomdown{
+    width: 100%;
+    height: 50%;
+    border: 3px solid;
+    border-radius: 5px;
+}
+.icon{
+    height: 40px;
+    width: 40px;
+    border: 3px solid;
+    border-radius: 50%;
+}
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 100%;
+    padding: 5px;
+    gap: 15px;
+}
+
+.rightup{
+    width: 100%;
+    height: 12%;
+    border: 3px solid;
+    border-radius: 10px;
+}
+
+.rightcenter{
+    width: 100%;
+    height: 50%;
+    border: 3px solid;
+    border-radius: 10px;
+    gap: 3%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.rightcenterup{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.rightcenterdown{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.rightcentermid1, .rightcentermid2{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+}
+.rightcentermid1 > div{
+    height: 100%;
+    width: 50%;
+    border: 3px solid;
+    border-radius: 5px;
+}
+
+.rightcentermid2 > div{
+    height: 100%;
+    width: 50%;
+    border: 3px solid;
+    border-radius: 5px;
+}
+
+.rightbottom{
+    width: 100%;
+    height: 38%;
+    border: 3px solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    padding: 15px;
+}
+
+.rightbottomup{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    gap: 50%;
+}
+.rightbottomup2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: right;
+}
+
+.rightbottom1, .rightbottom2, .rightbottom3{
+    height: 33%;
+    width: 100%;
+    border: 3px solid;
+    border-radius: 5px;
+}
